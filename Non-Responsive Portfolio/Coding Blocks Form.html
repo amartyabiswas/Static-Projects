@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Blocks Form</title>
+    <style>
+
+        body{
+            background-color: greenyellow;
+        }
+
+        #img{
+            background-color: white;
+            border: dashed;
+            border-color: red;
+            border-width: 6px;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+
+
+            margin:14px;
+        }
+
+        h1{
+            text-align: center;
+            font-family: "Monotype Corsiva";
+            color: darkblue;
+
+        }
+
+        h2{
+            text-align: center;
+            font-family: "Monotype Corsiva";
+            color: #ff0059;
+            text-decoration: underline;
+        }
+
+        #hello{
+            background-color: #f7ff98;
+            border: groove;
+            border-color:darkcyan;
+            border-width: medium;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            margin:14px;
+            text-align: center;
+        }
+
+        #insider input{
+            font-family: "Times New Roman" ;
+            background: beige;
+            border: none;
+            letter-spacing: 2px;
+            padding-left:10px ;
+            height: 50px;
+            width:600px;
+            margin-bottom: 24px;
+            font-size: 20px;
+
+
+            border: groove;
+            border-width: medium;
+            border-color: cyan;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+
+        #long input{
+            font-family: "Times New Roman" ;
+            background: beige;
+            letter-spacing: 2px;
+            height: 50px;
+            width:94%;
+            margin-bottom: 24px;
+            font-size: 20px;
+            padding-left: 10px;
+
+
+            border: groove;
+            border-width: medium;
+            border-color: cyan;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+
+        }
+
+        #radioButtons{
+            padding-left: 40px;
+            padding-bottom:20px;
+        }
+
+        #DropDown select{
+            font-family: "Times New Roman" ;
+            background: beige;
+            letter-spacing: 2px;
+            height: 50px;
+            width:95%;
+            font-size: 20px;
+            padding-left: 10px;
+
+
+            border: groove;
+            border-width: medium;
+            border-color: cyan;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+
+        #DropDown p{
+            text-align: left;
+            padding-left: 40px;
+        }
+
+       #VMC{
+           text-align: left;
+           padding-left: 40px;
+           font-family: 'Monotype Corsiva';
+           font-size: 22px;
+           color: darkblue;
+       }
+
+       #comment textarea{
+           width: 95%;
+           border: dotted;
+           border-width: medium;
+           border-color: cyan;
+           border-bottom-left-radius: 12px;
+           border-bottom-right-radius: 12px;
+           border-top-left-radius: 12px;
+           border-top-right-radius: 12px;
+       }
+
+
+        #last input{
+            font-family: "Times New Roman" ;
+            background: #ff0900;
+            letter-spacing: 2px;
+            height: 50px;
+            width: 500px;
+            margin-bottom: 24px;
+            font-size: 20px;
+            padding-left: 10px;
+
+
+            border: groove;
+            border-width: medium;
+            border-color: blue;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div id="img">
+        <center>
+            <img src="cb.png"  >
+        </center>
+    </div>
+
+
+    <h1>Code Your Way To Success</h1>
+
+
+
+        <form id="hello" action="submission.html" method="post">
+
+            <h2>Admission Form</h2>
+            <h3>Sign up to start coding like a professional</h3>
+
+            <div id="insider">
+                <input type="text" placeholder="First Name" >
+                <input type="text" placeholder="Last Name">
+            </div>
+
+            <br>
+            <div id="long">
+                <input type="text" placeholder="Email-Address" required>
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="School/College/University" required>
+                <input type="text" placeholder="Phone Number" required>
+            </div>
+
+            <div id="radioButtons" align="left">
+                <p style="font-family: 'Monotype Corsiva';font-size: 22px; display: inline">Currently Pursuing/Completed:</p>
+                &emsp;
+                <input type="radio" name="course">B.Tech
+                &emsp;
+                <input type="radio" name="course">M.Tech
+                &emsp;
+                <input type="radio" name="course">M.C.A
+                &emsp;
+                <input type="radio" name="course">B.E.
+
+                <br><br>
+                <p style="font-family: 'Monotype Corsiva';font-size: 22px; display: inline">Branch/Specialisation:</p>
+                &emsp;
+                <input type="radio" name="branch">I.T.
+                &emsp;
+                <input type="radio" name="branch">C.S.E.
+                &emsp;
+                <input type="radio" name="branch">E.E.E/E.C.E
+                &emsp;
+                <input type="radio" name="branch">Mechanical/M.P.A.E
+                &emsp;
+                <input type="radio" name="branch">Others
+            </div>
+
+            <div id="DropDown">
+              <strong> <p style="font-family: 'Monotype Corsiva';font-size: 24px;text-decoration: underline">Educational Status:</p></strong>
+                <select required>
+                    <option>
+                        In School (11th and 12th Standard only)
+                    </option>
+                    <option>
+                        B.E/B.Tech
+                    </option>
+                    <option>
+                        Post Graduation
+                    </option>
+                    <option>
+                        M.C.A/B.C.A
+                    </option>
+                </select>
+
+                <strong> <p style="font-family: 'Monotype Corsiva';font-size: 24px;text-decoration: underline">Select Center for Course:</p></strong>
+
+                <select required>
+                    <option>
+                        Dwarka Sector 11
+                    </option>
+                    <option>
+                        Pritampura
+                    </option>
+                    <option>
+                        Graeter Noda
+                    </option>
+                    <option>
+                        Andheri West, 24/6 Mumbai
+                    </option>
+                </select>
+            </div>
+            <br>
+            <div id="VMC">
+                <input type="checkbox" name="VMC">
+                Are you a VMC (Vidya Mandir Student) student?
+            </div>
+
+            <div>
+               <strong><p style="font-family:'Monotype Corsiva';text-align: center;padding-left: 40px;font-size: 26px;color:#ff0900 ">*Courses Available At Coding Blocks*</p></strong>
+            </div>
+
+            <div id="tables" align="left">
+                <table border="0px" align="center" cellspacing="10px" style="font-family: 'Times New Roman';font-size: 20px">
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="subjects">Launchpad (C++ Programming Fundamentals)
+                        </td>
+                        <td>
+                            <input type="checkbox" name="subjects">Django (Web Development in Python)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="subjects">Crux (Java Programming Fundamentals)
+                        </td>
+                        <td>
+                            <input type="checkbox" name="subjects">Perceptron (Machine Learning)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="subjects">Pandora (Android App Development)
+                        </td>
+                        <td>
+                            <input type="checkbox" name="subjects">Elixir (Web Development in Javascript)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="subjects">Algo++ (Advanced DS and Algorithms)
+                        </td>
+                        <td>
+                            <input type="checkbox" name="subjects">FinalStep (Interview Preparation)
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div id="comment">
+                <textarea rows=5 style="font-family: 'Monotype Corsiva';font-size: 30px;padding-left: 40px" placeholder="Extra Comments..."></textarea>
+            </div>
+            <br>
+            <div id="last">
+                <input type="submit" placeholder="Submit Form">
+            </div>
+            <br>
+
+        </form>
+    <footer>
+        <p align="right" style="font-size: 18px;font-family: 'Monotype Corsiva'">Masterpiece by Amartya Biswas</p>
+    </footer>
+
+</body>
+</html>

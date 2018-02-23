@@ -1,0 +1,91 @@
+#first{
+    background-image: url(na.jpg);
+    background-size: cover;
+    height: 630px;
+    width: 1340px;
+    margin: 0;
+    border: dotted white;
+    -webkit-filter: blur(1px);
+}
+
+#contents{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    color: white;
+}
+
+#second{
+    position: absolute;
+    top:70px;
+    left:180px;
+    -webkit-transform:rotate(90deg);
+
+    box-shadow: 0px 0px 20px 6px white;
+}
+
+#third{
+    height: 550px;
+    width: 600px;
+    background-color: #f7ff98;
+    position: absolute;
+    top: 42px;
+    left:710px;
+    border-radius: 20px;
+}
+
+#Education{
+    background-image: url(tulip1.jpg);
+    background-size: cover;
+    height: 630px;
+    width: 1340px;
+    margin: 0;
+    border: dotted white;
+}
+
+#Achieve{
+    background-image: url(flower.jpg);
+    background-size: cover;
+    height: 630px;
+    width: 1340px;
+    margin: 0;
+    border: dotted white;
+}
+
+.workspace{
+    height: 570px;
+    width: 1246px;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 42px;
+    left:42px;
+    border-radius: 20px;
+}
+
+#Skills{
+    background-image: url(mountain.jpeg);
+    background-size: cover;
+    height: 630px;
+    width: 1340px;
+    margin: 0;
+    border: dotted white;
+}
+
+.workspaces{
+    height: 570px;
+    width: 1246px;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 42px;
+    left:42px;
+    border-radius: 20px;
+}
+
+#Hobbies{
+    background-image: url(snow.jpg);
+    background-size: cover;
+    height: 630px;
+    width: 1340px;
+    margin: 0;
+    border: dotted red;
+}

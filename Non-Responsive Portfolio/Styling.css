@@ -1,0 +1,136 @@
+#Span1{
+    font-family: "Times New Roman";
+    font-size: 26px;
+    padding-left: 50px;
+    padding-right: 550px;
+    margin: 0;
+    display: flex;
+}
+
+#one,#two,#three,#four,#five{
+    font-family: Arial;
+}
+    #one:hover{
+        position: static;
+        font-family: "Monotype Corsiva";
+        color: red;
+        font-size: 20px;
+    }
+    #two:hover{
+        position: static;
+        font-family: "Monotype Corsiva";
+        font-size: 20px;
+        color: red;
+         }
+    #three:hover{
+        position: static;
+        font-family: "Monotype Corsiva";
+        font-size: 20px;
+        color: red;
+    }
+    #four:hover{
+        position: static;
+        font-family: "Monotype Corsiva";
+        font-size: 20px;
+        color: red;
+    }
+    #five:hover{
+        position: static;
+        font-family: "Monotype Corsiva";
+        font-size: 20px;
+        color: red;
+    }
+
+#div1{
+    display: block;
+    width: 100%;
+    background-color: #efefef;
+    height: 535px;
+    text-align: center;
+    border: dotted #00bcd4;
+}
+
+#div2{
+    position: absolute;
+    left:50px;
+    top:280px;
+    box-shadow: 5px 5px 20px 5px black;
+    padding-bottom: 0;
+}
+
+#div3{
+    position: absolute;
+    color: #2a56c6;
+    left: 578px;
+    top: 296px;
+    font-size: xx-large;
+    box-shadow: 2px 2px 20px 0 #2a56c6;
+}
+
+    #div3:hover{
+        font-size: 33px;
+        text-shadow: 4px 4px 10px black;
+    }
+
+#div4{
+    position: absolute;
+    color: red;
+    left: 578px;
+    top: 362px;
+    font-size: xx-large;
+    box-shadow: 5px 5px 20px 0 red;
+}
+    #div4:hover{
+         font-size: 33px;
+         text-shadow: 4px 4px 10px black;
+    }
+
+#div5{
+    position: absolute;
+    color: #00bcd4;
+    left: 578px;
+    top: 428px;
+    font-size: xx-large;
+    box-shadow: 5px 5px 20px 0 deepskyblue;
+}
+
+    #div5:hover{
+        font-size: 33px;
+        text-shadow: 4px 4px 10px black;
+    }
+
+#div6{
+    position: absolute;
+    color: green;
+    left: 578px;
+    top: 494px;
+    font-size: xx-large;
+    box-shadow: 5px 5px 20px 0 green;
+}
+
+    #div6:hover{
+        font-size: 33px;
+        text-shadow: 4px 4px 10px black;
+    }
+
+#span2{
+    position: absolute;
+    left: 50rem;
+    top: 18rem;
+    box-shadow: 5px 5px 20px 5px black;
+}
+
+#division{
+    position: absolute;
+    left: 970px;
+    top: 356px;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 22px;
+}
+
+#last{
+    position: absolute;
+    left: 1150px;
+    top: 475px;
+}

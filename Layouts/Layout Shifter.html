@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Shifter</title>
+
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .parent{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .first,.second,.third{
+            width:100%;
+        }
+
+        .first{
+            height: 150px;
+            background-color: darkblue;
+        }
+
+        .second{
+            height: 400px;
+            background-color: blue;
+        }
+
+        .third{
+            height: 600px;
+            background-color: cyan;
+        }
+
+        @media(min-width: 550px) {
+            .first{
+                height: 200px;
+            }
+
+            .second{
+                height: 400px;
+            }
+
+            .third{
+                height: 400px;
+            }
+        }
+
+        @media(min-width: 800px) {
+
+            .first{
+                height: 800px;
+                width: 20%;
+            }
+
+            .parent{
+                width: 80%;
+            }
+
+            .second,.third{
+                height: 400px;
+            }
+        }
+
+        @media(min-width: 1150px) {
+            body{
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+            .first{
+                height: 800px;
+                width: 20%;
+            }
+
+            .parent{
+                width: 80%;
+            }
+
+            .second,.third{
+                height: 400px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first"></div>
+        <div class="parent">
+            <div class="second"></div>
+            <div class="third"></div>
+        </div>
+
+    </div>
+</body>
+</html>

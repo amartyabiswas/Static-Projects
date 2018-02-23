@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Column Drop</title>
+
+    <style>
+        .container{
+            display: flex;
+        }
+        .box1,.box2,.box3{
+            height: 150px;
+        }
+
+        .box1{
+            width: 25%;
+            background-color: darkblue;
+        }
+
+        .box2{
+            width: 50%;
+            background-color: mediumblue;
+        }
+
+        .box3{
+            width: 25%;
+            background-color: cyan;
+        }
+
+        @media(max-width: 700px) {
+            .container{
+                flex-wrap: wrap;
+            }
+            .box2{
+                order: 1;
+                width: 40%;
+            }
+
+            .box1{
+                order: 2;
+                width: 60%;
+            }
+            .box3{
+                order: 2;
+                width: 100%;
+            }
+        }
+
+        @media(max-width: 500px) {
+            .container{
+                flex-wrap: wrap;
+            }
+            .box1,.box2,.box3{
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</div>
+</body>
+</html>
